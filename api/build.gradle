@@ -1,0 +1,12 @@
+plugins {
+    id 'project-conventions'
+}
+
+dependencies {
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+    implementation 'com.google.guava:guava:32.1.2-jre'
+}
+
+springBoot {
+    mainClass = 'com.reliaquest.api.ApiApplication'
+}
