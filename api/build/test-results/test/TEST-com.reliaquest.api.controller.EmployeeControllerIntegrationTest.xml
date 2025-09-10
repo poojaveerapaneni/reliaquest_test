@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.reliaquest.api.controller.EmployeeControllerIntegrationTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2025-09-10T08:00:57" hostname="veerapanenisMBP" time="0.383">
+  <properties/>
+  <testcase name="testGetTopTenHighestEarningEmployeeNames()" classname="com.reliaquest.api.controller.EmployeeControllerIntegrationTest" time="0.172"/>
+  <testcase name="testDeleteEmployeeById()" classname="com.reliaquest.api.controller.EmployeeControllerIntegrationTest" time="0.022"/>
+  <testcase name="testGetEmployeeById_Found()" classname="com.reliaquest.api.controller.EmployeeControllerIntegrationTest" time="0.068"/>
+  <testcase name="testGetEmployeeById_NotFound()" classname="com.reliaquest.api.controller.EmployeeControllerIntegrationTest" time="0.008"/>
+  <testcase name="testCreateEmployee()" classname="com.reliaquest.api.controller.EmployeeControllerIntegrationTest" time="0.057"/>
+  <testcase name="testGetAllEmployees()" classname="com.reliaquest.api.controller.EmployeeControllerIntegrationTest" time="0.019"/>
+  <testcase name="testGetHighestSalary()" classname="com.reliaquest.api.controller.EmployeeControllerIntegrationTest" time="0.008"/>
+  <testcase name="testGetEmployeesByNameSearch()" classname="com.reliaquest.api.controller.EmployeeControllerIntegrationTest" time="0.009"/>
+  <system-out><![CDATA[2025-09-10T09:00:56.858+01:00  INFO 14847 --- [employee-api] [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.reliaquest.api.controller.EmployeeControllerIntegrationTest]: EmployeeControllerIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-09-10T09:00:56.894+01:00  INFO 14847 --- [employee-api] [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.reliaquest.api.ApiApplication for test class com.reliaquest.api.controller.EmployeeControllerIntegrationTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::               (v3.2.10)
+
+2025-09-10T09:00:56.947+01:00  INFO 14847 --- [employee-api] [    Test worker] .r.a.c.EmployeeControllerIntegrationTest : Starting EmployeeControllerIntegrationTest using Java 17.0.16 with PID 14847 (started by veerapanenipoojaparimala in /Users/veerapanenipoojaparimala/Desktop/reliaquest/java-employee-challenge/api)
+2025-09-10T09:00:56.947+01:00 DEBUG 14847 --- [employee-api] [    Test worker] .r.a.c.EmployeeControllerIntegrationTest : Running with Spring Boot v3.2.10, Spring v6.1.13
+2025-09-10T09:00:56.948+01:00  INFO 14847 --- [employee-api] [    Test worker] .r.a.c.EmployeeControllerIntegrationTest : No active profile set, falling back to 1 default profile: "default"
+2025-09-10T09:00:57.711+01:00  INFO 14847 --- [employee-api] [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2025-09-10T09:00:57.711+01:00  INFO 14847 --- [employee-api] [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2025-09-10T09:00:57.715+01:00  INFO 14847 --- [employee-api] [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2025-09-10T09:00:57.732+01:00  INFO 14847 --- [employee-api] [    Test worker] .r.a.c.EmployeeControllerIntegrationTest : Started EmployeeControllerIntegrationTest in 0.832 seconds (process running for 9.643)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

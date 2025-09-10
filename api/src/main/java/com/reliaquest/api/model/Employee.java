@@ -3,11 +3,11 @@ package com.reliaquest.api.model;
 import com.fasterxml.jackson.databind.PropertyNamingStrategies;
 import com.fasterxml.jackson.databind.annotation.JsonNaming;
 import java.util.UUID;
-
 import lombok.*;
 
 @Data
 @AllArgsConstructor
+@NoArgsConstructor
 @Getter
 @Setter
 @Builder(toBuilder = true)
@@ -20,7 +20,6 @@ public class Employee {
     private Integer age;
     private String title;
     private String email;
-
 
     static class PrefixNamingStrategy extends PropertyNamingStrategies.NamingBase {
 

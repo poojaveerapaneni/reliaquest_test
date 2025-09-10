@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.reliaquest.api.model.EmployeeTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2025-09-10T08:00:58" hostname="veerapanenisMBP" time="0.013">
+  <properties/>
+  <testcase name="testGettersAndSetters()" classname="com.reliaquest.api.model.EmployeeTest" time="0.001"/>
+  <testcase name="testBuilder()" classname="com.reliaquest.api.model.EmployeeTest" time="0.001"/>
+  <testcase name="testAllArgsConstructor()" classname="com.reliaquest.api.model.EmployeeTest" time="0.001"/>
+  <testcase name="testJsonNamingStrategy()" classname="com.reliaquest.api.model.EmployeeTest" time="0.006"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

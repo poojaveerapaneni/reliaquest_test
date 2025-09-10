@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.reliaquest.api.config.ApiConfigTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-09-10T08:00:56" hostname="veerapanenisMBP" time="0.005">
+  <properties/>
+  <testcase name="testRestTemplateBeanCreation()" classname="com.reliaquest.api.config.ApiConfigTest" time="0.005"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

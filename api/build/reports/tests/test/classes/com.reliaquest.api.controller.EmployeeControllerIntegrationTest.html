@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - EmployeeControllerIntegrationTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>EmployeeControllerIntegrationTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/com.reliaquest.api.controller.html">com.reliaquest.api.controller</a> &gt; EmployeeControllerIntegrationTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">8</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.363s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">testCreateEmployee()</td>
+<td class="success">0.057s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testDeleteEmployeeById()</td>
+<td class="success">0.022s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testGetAllEmployees()</td>
+<td class="success">0.019s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testGetEmployeeById_Found()</td>
+<td class="success">0.068s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testGetEmployeeById_NotFound()</td>
+<td class="success">0.008s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testGetEmployeesByNameSearch()</td>
+<td class="success">0.009s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testGetHighestSalary()</td>
+<td class="success">0.008s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testGetTopTenHighestEarningEmployeeNames()</td>
+<td class="success">0.172s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>2025-09-10T09:00:56.858+01:00  INFO 14847 --- [employee-api] [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.reliaquest.api.controller.EmployeeControllerIntegrationTest]: EmployeeControllerIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-09-10T09:00:56.894+01:00  INFO 14847 --- [employee-api] [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.reliaquest.api.ApiApplication for test class com.reliaquest.api.controller.EmployeeControllerIntegrationTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::               (v3.2.10)
+
+2025-09-10T09:00:56.947+01:00  INFO 14847 --- [employee-api] [    Test worker] .r.a.c.EmployeeControllerIntegrationTest : Starting EmployeeControllerIntegrationTest using Java 17.0.16 with PID 14847 (started by veerapanenipoojaparimala in /Users/veerapanenipoojaparimala/Desktop/reliaquest/java-employee-challenge/api)
+2025-09-10T09:00:56.947+01:00 DEBUG 14847 --- [employee-api] [    Test worker] .r.a.c.EmployeeControllerIntegrationTest : Running with Spring Boot v3.2.10, Spring v6.1.13
+2025-09-10T09:00:56.948+01:00  INFO 14847 --- [employee-api] [    Test worker] .r.a.c.EmployeeControllerIntegrationTest : No active profile set, falling back to 1 default profile: &quot;default&quot;
+2025-09-10T09:00:57.711+01:00  INFO 14847 --- [employee-api] [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2025-09-10T09:00:57.711+01:00  INFO 14847 --- [employee-api] [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2025-09-10T09:00:57.715+01:00  INFO 14847 --- [employee-api] [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2025-09-10T09:00:57.732+01:00  INFO 14847 --- [employee-api] [    Test worker] .r.a.c.EmployeeControllerIntegrationTest : Started EmployeeControllerIntegrationTest in 0.832 seconds (process running for 9.643)
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 7.6.4</a> at 10 Sep 2025, 09:00:58</p>
+</div>
+</div>
+</body>
+</html>
